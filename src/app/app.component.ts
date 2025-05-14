@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
 
 @Component ({
+
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
@@ -9,6 +9,7 @@ import { RouterOutlet } from '@angular/router';
 })
 
 export class AppComponent {
+
   email : string = "ali@gmail.com";
 }
 
