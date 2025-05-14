@@ -1,12 +1,14 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 
-@Component({
+@Component ({
   selector: 'app-root',
-  imports: [RouterOutlet],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrl: './app.component.css',
+  standalone : true
 })
+
 export class AppComponent {
-  title = 'Activite5App';
+  email : string = "ali@gmail.com";
 }
+
