@@ -5,6 +5,6 @@ import { ProductsComponent } from './products/products.component';
 export const routes: Routes = [
 
     { path: "home", component: HomeComponent },
-    { path: "Products", component: ProductsComponent }
+    { path: "prods", component: ProductsComponent }
 ];
 
