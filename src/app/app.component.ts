@@ -1,15 +1,16 @@
 import { Component } from '@angular/core';
+import { RouterModule } from '@angular/router';
 
 @Component ({
 
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
-  standalone : true
+  standalone : true,
+  imports: [RouterModule]
 })
 
 export class AppComponent {
-
   email : string = "ali@gmail.com";
 }
 
